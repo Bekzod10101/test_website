@@ -1,0 +1,25 @@
+@media (max-width: 991px) {
+  .main_banner .banner_img img {
+    height: auto;
+    -o-object-fit: unset;
+       object-fit: unset;
+  }
+}
+@media (max-width: 576px) {
+  .main_banner {
+    padding-top: 40px;
+  }
+  .main_banner .banner_desc {
+    padding-bottom: 40px;
+  }
+  .main_banner .banner_desc,
+  .main_banner .banner_img {
+    height: 50vh;
+  }
+  .main_banner .banner_img img {
+    height: 100%;
+    margin-top: 0;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+}

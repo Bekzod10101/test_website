@@ -1,0 +1,115 @@
+@font-face {
+  font-family: Montserrat_Bold;
+  src: url(../fonts/Montserrat_Bold.ttf);
+}
+@font-face {
+  font-family: Montserrat_Medium;
+  src: url(../fonts/Montserrat_Medium.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  overflow: hidden;
+  font-family: Montserrat_Medium;
+}
+a,
+a:hover,
+a:active,
+a:focus,
+a:visited {
+  text-decoration: none;
+  color: unset;
+}
+.main_banner {
+  padding-top: 80px;
+  height: 100vh;
+}
+.main_banner .container,
+.main_banner .row {
+  height: 100%;
+}
+.main_banner .banner_img {
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.main_banner .banner_img img {
+  margin-top: auto;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.main_banner .banner_desc {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-bottom: 80px;
+}
+.main_banner .banner_desc > img {
+  -webkit-align-self: flex-start;
+      -ms-flex-item-align: start;
+          align-self: flex-start;
+}
+.main_banner .banner_desc .phone_num {
+  margin-top: auto;
+  margin-bottom: 32px;
+}
+.main_banner .banner_desc .phone_num h5,
+.main_banner .banner_desc .phone_num h4 {
+  font-size: 12px;
+}
+.main_banner .banner_desc .phone_num h4 {
+  font-family: Montserrat_Bold;
+}
+.main_banner .banner_desc .social_media_link {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 32px;
+  padding-right: 32px;
+  border-top: 1px solid #f1f1f1;
+  -webkit-align-self: flex-start;
+      -ms-flex-item-align: start;
+          align-self: flex-start;
+}
+.main_banner .banner_desc .social_media_link img {
+  height: 24px;
+  width: 24px;
+  margin-right: 16px;
+}
+.main_banner .banner_desc .social_media_link .link_text a {
+  display: block;
+  margin-bottom: 2px;
+}
+.main_banner .banner_desc .social_media_link a,
+.main_banner .banner_desc .social_media_link p {
+  font-size: 12px;
+}
+.main_banner .banner_desc .soon_block {
+  margin-top: 48px;
+}
+.main_banner .banner_desc .soon_block p {
+  color: #a4a4a4;
+  font-size: 12px;
+}
